@@ -1,0 +1,28 @@
+#cart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .5rem;
+    margin: 0 auto;
+    min-width: 1200px;
+}
+
+.cart-container{
+    padding-left: 2rem;
+}
+
+.subtotal-box{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    max-height: 12rem;
+    right: 78px;
+    top: 39px;
+    position: fixed;
+    min-width: 35rem;
+    min-height: 8rem;
+}
+
+.subtotal-label{
+    margin-right: .25rem;
+}
